@@ -1,0 +1,7 @@
+{
+  "name": "angulrtheme",
+  "version": "0.0.1",
+  "dependencies": {
+    "angulr": "https://github.com/sistcoop-bootstrapfiles/angulr.git#~0.0.2"
+  }
+}
