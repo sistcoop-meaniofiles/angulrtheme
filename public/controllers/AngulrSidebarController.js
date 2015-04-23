@@ -1,12 +1,10 @@
 'use strict';
 
 /* jshint -W098 */
-angular.module('mean.angulrtheme').controller('AngulrSidebarController', ['$scope', '$menuItemsAngulr',
-  function($scope, $menuItemsAngulr) {
+angular.module('mean.angulrtheme').controller('AngulrSidebarController', ['$rootScope', '$menuItemsAngulr',
+    function($rootScope, $menuItemsAngulr) {
 
-   // var updateMenuItems = function(){
-      $scope.$menuItemsAngulr = $menuItemsAngulr.menuItems;
-   // };
+        $rootScope.$menuItemsAngulr = $menuItemsAngulr.menuItems;
 
-  }
+    }
 ]);

@@ -15,19 +15,9 @@
     </section>
     {% endif %}
 
-    <!-- menu -->
-    <div class="app-aside hidden-xs bg-black" data-ng-include="'/angulrtheme/views/aside.html'"></div>
-    <!-- / menu -->
-
-    <!-- content -->
-    <div class="app-content">
-        <div ui-butterbar></div>
-        <a href class="off-screen-toggle hide" ui-toggle-class="off-screen" data-target=".app-aside" ></a>
-        <div class="app-content-body fade-in-up">
-            {% block content %}{% endblock %}
-        </div>
+    <div>
+        {% block content %}{% endblock %}
     </div>
-    <!-- /content -->
 
     <!-- footer -->
     <div class="app-footer wrapper b-t bg-light">
