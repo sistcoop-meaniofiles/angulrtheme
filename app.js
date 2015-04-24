@@ -58,10 +58,14 @@ Angulrtheme.register(function(app, auth, database) {
   Angulrtheme.aggregateAsset('js', '../lib/sg-iso3166/dist/sg-iso3166.js');
   //sg-iso4217
   Angulrtheme.aggregateAsset('js', '../lib/sg-iso4217/dist/sg-iso4217.js');
+  //sg-ubigeo
+  Angulrtheme.aggregateAsset('js', '../lib/sg-ubigeo/dist/sg-ubigeo.js');
   //sg-persona
   Angulrtheme.aggregateAsset('js', '../lib/sg-persona/dist/sg-persona.js');
   //sg-producto
   Angulrtheme.aggregateAsset('js', '../lib/sg-producto/dist/sg-producto.js');
+  //sg-utils
+  Angulrtheme.aggregateAsset('js', '../lib/sg-utils/dist/sg-utils.js');
 
   Angulrtheme.angularDependencies([
     'ngMessages',
@@ -79,8 +83,10 @@ Angulrtheme.register(function(app, auth, database) {
     'restangular',
     'sg-iso3166',
     'sg-iso4217',
+    'sg-ubigeo',
     'sg-persona',
-    'sg-producto'
+    'sg-producto',
+    'sg-utils'
   ]);
 
   return Angulrtheme;
