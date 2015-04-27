@@ -54,6 +54,9 @@ Angulrtheme.register(function(app, auth, database) {
   //angular-toastr
   Angulrtheme.aggregateAsset('css', '../lib/angular-toastr/dist/angular-toastr.css');
   Angulrtheme.aggregateAsset('js', '../lib/angular-toastr/dist/angular-toastr.tpls.js');
+  //angular-xeditable
+  Angulrtheme.aggregateAsset('css', '../lib/angular-xeditable/dist/css/xeditable.css');
+  Angulrtheme.aggregateAsset('js', '../lib/angular-xeditable/dist/js/xeditable.js');
   //ng-autofocus
   Angulrtheme.aggregateAsset('js', '../lib/ng-autofocus/dist/ng-autofocus.js');
   //restangular
@@ -86,6 +89,7 @@ Angulrtheme.register(function(app, auth, database) {
     'ui.utils.masks',
       //ladda dependencie
     'toastr',
+    'xeditable',
     'ng-autofocus',
     'restangular',
     'sg-iso3166',

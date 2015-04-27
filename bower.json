@@ -13,6 +13,7 @@
     "angular-input-masks": "~1.4.2",
     "angular-ladda": "~0.2.2",
     "angular-toastr": "~1.2.1",
+    "angular-xeditable": "~0.1.9",
     "ng-autofocus": "~0.0.1",
     "restangular": "~1.5.1",
     "underscore": "~1.8.3",
