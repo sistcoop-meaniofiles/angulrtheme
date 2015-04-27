@@ -29,6 +29,8 @@ Angulrtheme.register(function(app, auth, database) {
   Angulrtheme.aggregateAsset('js', '../lib/angular-messages/angular-messages.js');
   //angular-sanitize
   Angulrtheme.aggregateAsset('js', '../lib/angular-sanitize/angular-sanitize.js');
+  //angular-animate
+  Angulrtheme.aggregateAsset('js', '../lib/angular-animate/angular-animate.js');
   //angular-ui-grid
   Angulrtheme.aggregateAsset('js', '../lib/angular-ui-grid/ui-grid.js');
   Angulrtheme.aggregateAsset('css', '../lib/angular-ui-grid/ui-grid.css');
@@ -49,6 +51,9 @@ Angulrtheme.register(function(app, auth, database) {
   Angulrtheme.aggregateAsset('js', '../lib/ladda/dist/spin.min.js');
   Angulrtheme.aggregateAsset('js', '../lib/ladda/dist/ladda.min.js');
   Angulrtheme.aggregateAsset('js', '../lib/angular-ladda/dist/angular-ladda.min.js');
+  //angular-toastr
+  Angulrtheme.aggregateAsset('css', '../lib/angular-toastr/dist/angular-toastr.css');
+  Angulrtheme.aggregateAsset('js', '../lib/angular-toastr/dist/angular-toastr.tpls.js');
   //ng-autofocus
   Angulrtheme.aggregateAsset('js', '../lib/ng-autofocus/dist/ng-autofocus.js');
   //restangular
@@ -70,6 +75,7 @@ Angulrtheme.register(function(app, auth, database) {
   Angulrtheme.angularDependencies([
     'ngMessages',
     'ngSanitize',
+    'ngAnimate',
     'ui.grid',
     'ui.grid.edit',
     'ui.grid.selection',
@@ -79,6 +85,7 @@ Angulrtheme.register(function(app, auth, database) {
     'ui.utils',
     'ui.utils.masks',
       //ladda dependencie
+    'toastr',
     'ng-autofocus',
     'restangular',
     'sg-iso3166',
