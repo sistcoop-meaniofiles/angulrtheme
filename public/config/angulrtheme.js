@@ -18,6 +18,10 @@ angular.module('mean.angulrtheme').config(function(sgPersonaProvider) {
   sgPersonaProvider.restUrl = 'http://localhost:8080/persona/rest';
 });
 
+angular.module('mean.angulrtheme').config(function(sgRrhhProvider) {
+  sgRrhhProvider.restUrl = 'http://localhost:8080/rrhh/rest';
+});
+
 angular.module('mean.angulrtheme').run(function(editableOptions, editableThemes) {
   editableThemes.bs3.inputClass = 'input-sm form-control';
   editableThemes.bs3.buttonsClass = 'btn-sm';

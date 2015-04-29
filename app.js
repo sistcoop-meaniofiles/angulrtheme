@@ -72,6 +72,8 @@ Angulrtheme.register(function(app, auth, database) {
   Angulrtheme.aggregateAsset('js', '../lib/sg-persona/dist/sg-persona.js');
   //sg-producto
   Angulrtheme.aggregateAsset('js', '../lib/sg-producto/dist/sg-producto.js');
+  //sg-rrhh
+  Angulrtheme.aggregateAsset('js', '../lib/sg-rrhh/dist/sg-rrhh.js');
   //sg-utils
   Angulrtheme.aggregateAsset('js', '../lib/sg-utils/dist/sg-utils.js');
 
@@ -97,6 +99,7 @@ Angulrtheme.register(function(app, auth, database) {
     'sg-ubigeo',
     'sg-persona',
     'sg-producto',
+    'sg-rrhh',
     'sg-utils'
   ]);
 
