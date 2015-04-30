@@ -10,6 +10,10 @@ angular.module('mean.angulrtheme').config(function(sgIso4217Provider) {
   sgIso4217Provider.restUrl = 'http://localhost:8080/iso4217/rest';
 });
 
+angular.module('mean.angulrtheme').config(function(sgUbigeoProvider) {
+  sgUbigeoProvider.restUrl = 'http://localhost:8080/ubigeo/rest';
+});
+
 angular.module('mean.angulrtheme').config(function(sgProductoProvider) {
   sgProductoProvider.restUrl = 'http://localhost:8080/producto/rest';
 });
